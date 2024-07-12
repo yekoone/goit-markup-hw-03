@@ -1,0 +1,231 @@
+/* -------------------------Çoklu Sınıflar Başlangıç------------------------ */
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+  }
+
+ body{
+    font-family: var(--font-family);
+    color: #434455;
+    background-color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+} 
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section{
+    padding: 120px 0;;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-text{
+    line-height: 1.5;
+}
+.text-align{
+    text-align: center;
+}
+.features-title, .team-title, .portfolio-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.features-subtitle, .team-subtitle, .portfolio-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.section-ul{
+    display: flex;
+    gap: 24px;
+}
+.section-ul:last-child{
+    padding-right: 0;
+}
+
+.section-ul-wrap{
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.section-two{
+    background-color: #f4f4fd;
+}
+
+/* -------------------------Çoklu Sınıflar Bitiş------------------------ */
+
+
+/* -------------------------Özelleştirilmiş Sınıflar Başlangıç------------------------ */
+
+/* ------ Header Alanı Başlangıç -------- */
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu, .address{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+.logo-span{
+    color:#2e2f42;
+}
+.nav-menu-ul, .address-ul{
+    display: flex;
+    gap: 40px;
+}
+.nav-menu-ul-li{
+    padding: 24px 0;
+}
+.nav-menu-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus,
+.address-link:hover,
+.address-link:hover{
+    color: #404bbf;
+}
+
+/* ------ Header Alanı Bitiş -------- */
+
+/* ------- Main Alanı Başlangıç -------- */
+
+.hero{
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+.hero-header{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+}
+.button{
+    font-weight: 500;
+    font-family: var(--font-family);
+    font-size:16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    color:#FFFFFF;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    margin: 48px auto 0;
+    padding: 16px 32px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.button:hover,
+.button:focus{
+    background-color:#404BBF;
+}
+
+.team-box{
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-info{
+    padding: 32px 0;
+    text-align: center;
+}
+
+.portfolio-wrap{
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
+    margin-bottom: 8px;
+}
+.portfolio-li{
+    width: calc((100% - 48px) / 3);
+}
+
+/* ------- Main Alanı Bitiş -------- */
+
+/* ------- Footer Alanı Başlangıç -------- */
+.footer{
+    background: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-logo-span{
+    color: #FFFFFF;
+}
+
+.footer-text{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
+
+/* ------- Footer Alanı Bitiş -------- */
+
+/* -------------------------Özelleştirilmiş Sınıflar Bitiş------------------------ */
