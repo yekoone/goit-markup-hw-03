@@ -35,15 +35,6 @@ section{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px;
-    text-align: center;
 }
 
 .section-text{
